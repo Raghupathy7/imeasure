@@ -33,7 +33,6 @@ $(document).ready(function() {
             var math = Math.floor(final);
             var remainder = remain % tile;
             var last1 = tilearea * (waste/100); 
-            console.log(last1);
            var last1 =Math.ceil( tilearea + last1 );
  		alert(last1 + "tiles you want");
            // if (remainder == 0 )
